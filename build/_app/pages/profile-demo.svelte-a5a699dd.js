@@ -1,0 +1,7 @@
+import{S as I,i as S,s as V,e as b,t as c,c as k,a as g,h as m,d as _,b as q,g as y,L as d,j as D,k as w,M as z,m as B,K as j,F as C}from"../chunks/vendor-4da64e94.js";import{s as F}from"../chunks/stores-742cbc98.js";function E(o){let t,n=o[1].user_id+"",e;return{c(){t=b("div"),e=c(n),this.h()},l(a){t=k(a,"DIV",{class:!0});var i=g(t);e=m(i,n),i.forEach(_),this.h()},h(){q(t,"class","bg-black text-white")},m(a,i){y(a,t,i),d(t,e)},p(a,i){i&2&&n!==(n=a[1].user_id+"")&&D(e,n)},d(a){a&&_(t)}}}function K(o){let t,n,e,a,i,h,p,v,u;document.title=t="Profile - "+o[1].site_title;let s=o[1].user_id&&E(o);return{c(){n=w(),e=b("div"),s&&s.c(),a=c(`
+  
+  pfp`),i=b("br"),h=c(`
+  hello `),p=c(P),v=c(" your email is "),u=c(o[0]),this.h()},l(l){z('[data-svelte="svelte-bh80zk"]',document.head).forEach(_),n=B(l),e=k(l,"DIV",{class:!0});var r=g(e);s&&s.l(r),a=m(r,`
+  
+  pfp`),i=k(r,"BR",{}),h=m(r,`
+  hello `),p=m(r,P),v=m(r," your email is "),u=m(r,o[0]),r.forEach(_),this.h()},h(){q(e,"class","p-10")},m(l,f){y(l,n,f),y(l,e,f),s&&s.m(e,null),d(e,a),d(e,i),d(e,h),d(e,p),d(e,v),d(e,u)},p(l,[f]){f&2&&t!==(t="Profile - "+l[1].site_title)&&(document.title=t),l[1].user_id?s?s.p(l,f):(s=E(l),s.c(),s.m(e,a)):s&&(s.d(1),s=null),f&1&&D(u,l[0])},i:j,o:j,d(l){l&&_(n),l&&_(e),s&&s.d()}}}let P="ty byaga";function L(o,t,n){let e;C(o,F,i=>n(1,e=i));let{email:a="jonathan@jonahan.com"}=t;return o.$$set=i=>{"email"in i&&n(0,a=i.email)},[a,e]}class A extends I{constructor(t){super();S(this,t,L,K,V,{email:0})}}export{A as default};
